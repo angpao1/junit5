@@ -56,6 +56,7 @@ public class NestedTest {
             void test2() {
                 System.out.println("Test 2 in InnerClass2");
                 System.out.println("Test 2 in InnerClass2");
+                System.out.println("Test 2 in InnerClass2");
             }
         }
     }
