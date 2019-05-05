@@ -46,7 +46,7 @@ public class NestedTest {
         }
 
         @Nested
-        class  InnerClass2 {
+        class InnerClass2 {
             @Test
             void test1() {
                 System.out.println("Test 1 in InnerClass2");
@@ -55,9 +55,8 @@ public class NestedTest {
             @RepeatedTest(3)
             void test2() {
                 System.out.println("Test 2 in InnerClass2");
+                System.out.println("Test 2 in InnerClass2");
             }
         }
     }
 }
-
-
